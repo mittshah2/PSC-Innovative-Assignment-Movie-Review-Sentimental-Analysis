@@ -28,10 +28,14 @@ Layer 6 - Output layer with 5 outputs ranging from 0 to 4
 
 Our output is an integer for every review, that integer defines its sentiment
 
-0 - Negative ,
-1 - Somewhat Negative ,
-2 - Neutral ,
-3 - Somewhat Positive ,
+0 - Negative
+
+1 - Somewhat Negative
+
+2 - Neutral
+
+3 - Somewhat Positive
+
 4 - Positive
 
 # How to run this implementation ?
