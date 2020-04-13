@@ -4,7 +4,9 @@ This is the full stack implementation of PSC Innovative Assignment which is all 
 CONTRIBUTING MEMBERS - 
 
 18BCE091 - Kaushil Mangaroliya
+
 18BCE103 - Maharsh Shah
+
 18BCE121 - Mitt Shah
 
 This is a full guide and explaination of the the project named Movie Review Sentimental Analysis . 
