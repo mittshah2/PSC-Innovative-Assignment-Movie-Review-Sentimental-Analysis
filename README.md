@@ -1,6 +1,12 @@
 # PSC-Innovative-Assignment-Movie-Review-Sentimental-Analysis
 This is the full stack implementation of PSC Innovative Assignment which is all about Movie Review Sentimental Analysis
 
+CONTRIBUTING MEMBERS - 
+
+18BCE091 - Kaushil Mangaroliya
+18BCE103 - Maharsh Shah
+18BCE121 - Mitt Shah
+
 This is a full guide and explaination of the the project named Movie Review Sentimental Analysis . 
 
 Sentimental Analysis has always been one of the most worked upon section of Deep Learning . We has humans can understand the feelings and context behind any review someone gives us but for a machine to do the same just like human is very tough . To achieve this goal we have been using Deep Learning as our tool . 
@@ -9,7 +15,21 @@ Deep Learning with artificial neural network can act as one of the best solution
 
 So we need to overcome this problem as well and can be easily done by using RNN and using LSTM . Recurrent Neural Network(RNN) are a type of Neural Network where the output from previous step are fed as input to the current step. RNN came into existence and solved this issue with the help of a Hidden Layer. The main and most important feature of RNN is Hidden state, which remembers some information about a sequence. Long Short-Term Memory (LSTM) networks are a type of recurrent neural network capable of learning order dependence in sequence prediction problems. Unlike standard feedforward neural networks, LSTM has feedback connections. It can not only process single data points (such as images), but also entire sequences of data (such as speech or video) .
 
-So this all explains the approach of the implementation and reason behind all the hardwork .
+Neural Network Architecture Explained :-
+It is a sequential model containg 1 input layer 4 hidden layer and 1 output layer .
+Layer 1 - it is an embedding layer with 300 input neurons in it 
+Layer 2 - it is LSTM layer implementation with 128 neurons in it and dropout of 0.5
+Layer 3 - it is LSTM layer implementation with 64 neurons in it and dropout of 0.5
+Layer 4 - it is simple dense layer with 100 neurons in it
+Layer 5 - it includes dropout so as to make our model more efficient
+Layer 6 - Output layer with 5 outputs ranging from 0 to 4 
+
+Our output is an integer for every review, that integer defines its sentiment 
+0 - Negative 
+1 - Somewhat Negative
+2 - Neutral
+3 - Somewhat Positive 
+4 - POsitive
 
 # How to run this implementation ?
 
@@ -42,6 +62,8 @@ FINALLY - Run the cells
 You will be asked to upload the datasets to the colab environment, so choose the train.tsv and test.tsv dataset files one by one from your device where you have downloaded it . For example if they are in c drive choose from C drive train.tsv file and press upload button
 
 After uploading datasets, run all cells and you are good to leave it for training !
+
+NOTE - IF YOU STILL FEEL THAT IT WILL TAKE MORE THAN HALF HOUR TO TRAIN THEN PLEASE REDUCE THE TRAINING DATASET TO HALF OF ITS INITIAL SIZE AND SAME FOR TESTING IF YOU WANT TO . IT WILL TAKE 90 TO 120 SECONDS FOR EVERY EPOCH TO TRAIN (total 6 epochs) SO IT WILL HARDLY TAKE MUCH OF TIME WITH GPU , BUT IF YOU STILL FEEL REDUCE DATASETS BY HALF .
 
 
 BINGO ! YOU HAVE SUCCESSFULLY RUN THE IMPLEMENTATION! RUNTIME TOOK TIME BUT IF WAS WORTH EVERY EPOCH AND EVERY BATCH IF LEARNED THROUGH!
