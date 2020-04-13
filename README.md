@@ -24,12 +24,13 @@ Layer 4 - it is simple dense layer with 100 neurons in it
 Layer 5 - it includes dropout so as to make our model more efficient
 Layer 6 - Output layer with 5 outputs ranging from 0 to 4 
 
-Our output is an integer for every review, that integer defines its sentiment 
+Our output is an integer for every review, that integer defines its sentiment
+
 0 - Negative 
 1 - Somewhat Negative
 2 - Neutral
 3 - Somewhat Positive 
-4 - POsitive
+4 - Positive
 
 # How to run this implementation ?
 
