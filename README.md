@@ -13,9 +13,15 @@ So this all explains the approach of the implementation and reason behind all th
 
 # How to run this implementation ?
 
-NOTE - COMPULSARY RUN THIS IMPLEMENTATION IN GOOGLE COLAB WITH GPU SUPPORT ONLY . IF YOU TRY TO RUN THIS ON YOUR DEVICE OR WITHOUT GPU IT WILL TAKE A LOT OF TIME TO BE TRAINED. SO DONT EVEN TRY TO RUN IT ON CPU, USE GOOGLE COLAB GPU SUPPORT ONLY . 
+## NOTE - COMPULSARY RUN THIS IMPLEMENTATION IN GOOGLE COLAB WITH GPU SUPPORT ONLY . IF YOU TRY TO RUN THIS ON YOUR DEVICE OR WITHOUT GPU IT WILL TAKE A LOT OF TIME TO BE TRAINED. SO DONT EVEN TRY TO RUN IT ON CPU, USE GOOGLE COLAB GPU SUPPORT ONLY .
 
-Firstly you need to have all the libraries needed to implement, list of the libraries :
+To run it with Google Colab GPU support on top left go to Edit > Notebook Settings > Hardware Accelerator > GPU
+
+
+Firstly you need to download the training and testing dataset ( train.tsv and test.tsv ) from the Repository or just Download the whole repositiry , any of the moethod will work !
+Datasets are very very large and will take some time to download, so be patient .
+
+Secondly you need to have all the libraries needed to implement, list of the libraries :
 
 1). Numpy
 
@@ -30,18 +36,13 @@ Firstly you need to have all the libraries needed to implement, list of the libr
 6). Sklearn ( To handle training and testing Dataset and other subordinate tasks )
 
 7). Google ( colab ,files to upload your datasets to colab , without this you wont be able to access datasets )
+ 
+FINALLY - Run the cells 
 
-Note - Incase of difficulty in installing, do as following. In cmd type the command   pip install nltk    ( or the library you want )
+You will be asked to upload the datasets to the colab environment, so choose the train.tsv and test.tsv dataset files one by one from your device where you have downloaded it . For example if they are in c drive choose from C drive train.tsv file and press upload button
 
-After all the required libraries are installed , you need to download the training and testing dataset ( train.tsv and test.tsv )
+After uploading datasets, run all cells and you are good to leave it for training !
 
-Datasets are very very large and will take some time to download, so be patient . 
-
-Run the cells 
-
-You will be asked to upload the datasets to the colab environment, so choose the train.tsv and test.tsv dataset files one by one from your device where you have downloaded it .
-
-After uploading datasets, you are good to leave it for training !
 
 BINGO ! YOU HAVE SUCCESSFULLY RUN THE IMPLEMENTATION! RUNTIME TOOK TIME BUT IF WAS WORTH EVERY EPOCH AND EVERY BATCH IF LEARNED THROUGH!
 
