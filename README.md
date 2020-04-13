@@ -16,16 +16,25 @@ So this all explains the approach of the implementation and reason behind all th
 NOTE - COMPULSARY RUN THIS IMPLEMENTATION IN GOOGLE COLAB WITH GPU SUPPORT ONLY . IF YOU TRY TO RUN THIS ON YOUR DEVICE OR WITHOUT GPU IT WILL TAKE A LOT OF TIME TO BE TRAINED. SO DONT EVEN TRY TO RUN IT ON CPU, USE GOOGLE COLAB GPU SUPPORT ONLY . 
 
 Firstly you need to have all the libraries needed to implement, list of the libraries :
+
 1). Numpy
+
 2). Pandas
+
 3). NLTK ( For Natural Language and Deep Learning )
+
 4). BeautifulSoup ( For pre-processing data )
+
 5). Keras ( For implementing Deep Learning Architecture )
+
 6). Sklearn ( To handle training and testing Dataset and other subordinate tasks )
+
 7). Google ( colab ,files to upload your datasets to colab , without this you wont be able to access datasets )
+
 Note - Incase of difficulty in installing, do as following. In cmd type the command   pip install nltk    ( or the library you want )
 
 After all the required libraries are installed , you need to download the training and testing dataset ( train.tsv and test.tsv )
+
 Datasets are very very large and will take some time to download, so be patient . 
 
 Run the cells 
