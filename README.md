@@ -1,4 +1,4 @@
-# PSC-Innovative-Assignment-Movie-Review-Sentimental-Analysis
+# Movie-Review-Sentimental-Analysis-Using-RNN-and-LSTM
 
 CONTRIBUTING MEMBERS - 
 
